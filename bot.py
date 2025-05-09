@@ -6,7 +6,7 @@ from io import BytesIO
 
 # Конфигурация
 TOKEN = "7544047422:AAHYNo5zclYgECND9iu6ZsxZjd8M2e7dC38"
-API_URL = "http://ваш-сервер.railway.app"  # Замените на ваш URL
+API_URL = "http://127.0.0.1:8000"  # Замените на ваш URL
 
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
